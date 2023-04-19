@@ -11,8 +11,6 @@ public class MyThread implements Runnable{
         System.out.println("start thread: "+name);
         try {
             Thread.sleep(1000);
-//            map<key> = "dbcjh";
-//            thread id, writng value-, written alue-
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
