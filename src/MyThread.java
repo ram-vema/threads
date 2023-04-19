@@ -4,8 +4,6 @@ public class MyThread implements Runnable{
         this.name=name;
     }
 
-//    Map<Integer, String> map = ;
-
     @Override
     public void run() {
         System.out.println("start thread: "+name);
